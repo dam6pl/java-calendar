@@ -1,6 +1,6 @@
 # Event Scheduler (Client-Server Application)
 
-** Author: ** [Damian Nowak](mailto:me@dnowak.dev)
+**Author:** [Damian Nowak](mailto:me@dnowak.dev)
 
 ## Application description
 
@@ -23,9 +23,9 @@ In order to be able to run the application on the client's side, it is necessary
 
 ## Description of the functionality used in the application
 
-** Client ** - the application on the client's side has a separated logic of communication with the server and a window interface based on `SWING`. Communication with the server is based on downloading the list of events from the server immediately after connection and sending the list to the server after executing any of the operations `CRUD` on the list of events.
+**Client** - the application on the client's side has a separated logic of communication with the server and a window interface based on `SWING`. Communication with the server is based on downloading the list of events from the server immediately after connection and sending the list to the server after executing any of the operations `CRUD` on the list of events.
 
-** Server ** - application on the server side has the logic responsible for communication with clients and operations on files. Data sent between the Client and the Server are a serialized list of objects representing a single event.
+**Server** - application on the server side has the logic responsible for communication with clients and operations on files. Data sent between the Client and the Server are a serialized list of objects representing a single event.
 
 The `JAVA` language capability used in the project:
 
